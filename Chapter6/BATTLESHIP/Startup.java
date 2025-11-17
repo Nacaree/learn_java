@@ -1,37 +1,14 @@
-
 import java.util.ArrayList;
 
-public class StartupTestDrive {
-
-    public static void main(String[] args) {
-
-        /*
-         * Startup dot = new Startup();
-         * int[] locations = {2, 3, 4};
-         * dot.setLocationCells(locations);
-         * int userGuess = 4;
-         * String result = dot.checkYourself(userGuess);
-         * String testResult = "failed";
-         * if (result.equals("hit")) {
-         * testResult = "passed";
-         * }
-         * System.out.println(testResult);
-         */
-    }
-
-}
-
-class Startupssss {
-
+public class Startup {
     private ArrayList<String> locationCells;
-    // private int numOfHits = 0;
     private String name;
 
     public void setLocationCells(ArrayList<String> locs) {
         locationCells = locs;
     }
 
-    void setName(String n) {
+    public void setName(String n) {
         name = n;
     }
 
@@ -43,7 +20,7 @@ class Startupssss {
             locationCells.remove(index);
             if (locationCells.isEmpty()) {
                 result = "kill";
-
+                System.out.println("Ouch! You sunk " + name + " : (");
             } else {
                 result = "hit";
             }
