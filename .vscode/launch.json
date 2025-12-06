@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Mixed2",
+      "request": "launch",
+      "mainClass": "Mixed2",
+      "projectName": "learn_java_8872e0ee"
+    },
+    {
+      "type": "java",
+      "name": "PolyExample01",
+      "request": "launch",
+      "mainClass": "PolyExample01",
+      "projectName": "learn_java_8872e0ee"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}",
